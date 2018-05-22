@@ -16,8 +16,8 @@ The project is to develop a small GIMP-like image editor, with basic functions. 
 
 ## Authors
 
-Ali Taïga Matthias-Adams
-Queslel Charles
-Pierdet Valentin
-Dumas Théo
-Imbs Nicolas
+Ali Taïga Matthias-Adams  
+Queslel Charles  
+Pierdet Valentin  
+Dumas Théo  
+Imbs Nicolas  
