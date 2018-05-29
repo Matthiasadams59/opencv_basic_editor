@@ -81,10 +81,9 @@ int main( int argc, char** argv )
         Canny( detected_edges, detected_edges, value_canny, value_canny*3, 3 );
         dst = Scalar::all(0);
 
-        new_image.copyTo( dst, detected_edges);
+        new_image.copyTo(dst, detected_edges);
 
-        namedWindow("canny_w", WINDOW_AUTOSIZE);
-        imshow("canny_w", dst);
+        new_image = dst;
 
     }
     else
