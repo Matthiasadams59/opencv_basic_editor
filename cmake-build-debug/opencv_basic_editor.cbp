@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/main.cpp">
+		<Unit filename="/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/erosion_dilatation.cpp">
 			<Option target="opencv_basic_editor"/>
 		</Unit>
 		<Unit filename="/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/CMakeLists.txt">

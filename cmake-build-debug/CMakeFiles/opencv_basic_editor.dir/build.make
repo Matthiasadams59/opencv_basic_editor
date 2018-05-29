@@ -57,38 +57,38 @@ include CMakeFiles/opencv_basic_editor.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/opencv_basic_editor.dir/flags.make
 
-CMakeFiles/opencv_basic_editor.dir/main.cpp.o: CMakeFiles/opencv_basic_editor.dir/flags.make
-CMakeFiles/opencv_basic_editor.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv_basic_editor.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_basic_editor.dir/main.cpp.o -c /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/main.cpp
+CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o: CMakeFiles/opencv_basic_editor.dir/flags.make
+CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o: ../erosion_dilatation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o -c /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/erosion_dilatation.cpp
 
-CMakeFiles/opencv_basic_editor.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_basic_editor.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/main.cpp > CMakeFiles/opencv_basic_editor.dir/main.cpp.i
+CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/erosion_dilatation.cpp > CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.i
 
-CMakeFiles/opencv_basic_editor.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_basic_editor.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/main.cpp -o CMakeFiles/opencv_basic_editor.dir/main.cpp.s
+CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/erosion_dilatation.cpp -o CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.s
 
-CMakeFiles/opencv_basic_editor.dir/main.cpp.o.requires:
+CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o.requires:
 
-.PHONY : CMakeFiles/opencv_basic_editor.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o.requires
 
-CMakeFiles/opencv_basic_editor.dir/main.cpp.o.provides: CMakeFiles/opencv_basic_editor.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/opencv_basic_editor.dir/main.cpp.o.provides
+CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o.provides: CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o.provides.build
+.PHONY : CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o.provides
 
-CMakeFiles/opencv_basic_editor.dir/main.cpp.o.provides.build: CMakeFiles/opencv_basic_editor.dir/main.cpp.o
+CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o.provides.build: CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o
 
 
 # Object files for target opencv_basic_editor
 opencv_basic_editor_OBJECTS = \
-"CMakeFiles/opencv_basic_editor.dir/main.cpp.o"
+"CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o"
 
 # External object files for target opencv_basic_editor
 opencv_basic_editor_EXTERNAL_OBJECTS =
 
-opencv_basic_editor: CMakeFiles/opencv_basic_editor.dir/main.cpp.o
+opencv_basic_editor: CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o
 opencv_basic_editor: CMakeFiles/opencv_basic_editor.dir/build.make
 opencv_basic_editor: CMakeFiles/opencv_basic_editor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable opencv_basic_editor"
@@ -99,7 +99,7 @@ CMakeFiles/opencv_basic_editor.dir/build: opencv_basic_editor
 
 .PHONY : CMakeFiles/opencv_basic_editor.dir/build
 
-CMakeFiles/opencv_basic_editor.dir/requires: CMakeFiles/opencv_basic_editor.dir/main.cpp.o.requires
+CMakeFiles/opencv_basic_editor.dir/requires: CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o.requires
 
 .PHONY : CMakeFiles/opencv_basic_editor.dir/requires
 

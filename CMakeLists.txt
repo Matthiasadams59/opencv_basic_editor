@@ -3,4 +3,4 @@ project(opencv_basic_editor)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(opencv_basic_editor main.cpp)
+add_executable(opencv_basic_editor erosion_dilatation.cpp)
