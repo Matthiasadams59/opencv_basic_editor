@@ -21,5 +21,5 @@ Queslel Charles
 Pierdet Valentin  
 Dumas Théo  
 Imbs Nicolas  
-Faure Noé
+Faure Noé  
 Corentin Betz
