@@ -25,6 +25,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/alitaigamatthias-adams/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/Users/alitaigamatthias-adams/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/Compiler/Clang.cmake"
   "/Users/alitaigamatthias-adams/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/Compiler/GNU.cmake"
+  "/Users/alitaigamatthias-adams/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake"
+  "/Users/alitaigamatthias-adams/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindPackageMessage.cmake"
   "/Users/alitaigamatthias-adams/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/Platform/Darwin-AppleClang-C.cmake"
   "/Users/alitaigamatthias-adams/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/Platform/Darwin-AppleClang-CXX.cmake"
   "/Users/alitaigamatthias-adams/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/Platform/Darwin-Clang-C.cmake"
@@ -34,6 +36,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/alitaigamatthias-adams/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/Platform/Darwin.cmake"
   "/Users/alitaigamatthias-adams/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/Platform/UnixPaths.cmake"
   "/Users/alitaigamatthias-adams/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/ProcessorCount.cmake"
+  "/usr/local/share/OpenCV/OpenCVConfig-version.cmake"
+  "/usr/local/share/OpenCV/OpenCVConfig.cmake"
+  "/usr/local/share/OpenCV/OpenCVModules-release.cmake"
+  "/usr/local/share/OpenCV/OpenCVModules.cmake"
   )
 
 # The corresponding makefile is:

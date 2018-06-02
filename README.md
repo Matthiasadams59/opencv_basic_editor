@@ -22,3 +22,4 @@ Pierdet Valentin
 Dumas Théo  
 Imbs Nicolas  
 Faure Noé
+Corentin Betz
