@@ -86,5 +86,9 @@ int main( int argc, char** argv )
   /// Wait until user exit program by pressing a key
   waitKey(0);
 
+  size_t lastindex = imageName.find_last_of(".");
+  string rawname = imageName.substr(0, lastindex);
+  imwrite(rawname+"_canned.jpg", dst);
+
   return 0;
   }
