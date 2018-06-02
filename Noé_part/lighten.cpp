@@ -25,7 +25,7 @@ int main( int argc, char** argv )
     int x_resize = image.cols;
     int y_resize = image.rows;
 
-    String canny_choice = "no";
+    int canny_choice;
 
     // __________ MENU _________
 
@@ -37,7 +37,7 @@ int main( int argc, char** argv )
     cin >> beta;
     cout << "* Brightness [-150 / 150]: ";    
     cin >> beta;
-    cout << "* Canny Edge Detection [yes / no]:";
+    cout << "* Canny Edge Detection [1 for yes / 0 for no]:";
     cin >> canny_choice;
     cout << "* Resize (current x : " << x_size << " & y : " << y_size << ") \n";
     cout << "x = ";
@@ -62,7 +62,7 @@ int main( int argc, char** argv )
 
     // __________ CANNY EDGE DETECTION __________
 
-    if(canny_choice == "yes")
+    if(canny_choice == 1)
     {
 
         Mat dst, detected_edges;
