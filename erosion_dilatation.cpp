@@ -48,11 +48,13 @@ int main( int argc, char** argv )
     }
 
     waitKey(0);
+    size_t lastindex = imageName.find_last_of(".");
+    string rawname = imageName.substr(0, lastindex);
     if (erosion_choice == 1) {
-        String newImage_name = imageName + "Eroded.jpg";
+        String newImage_name = rawname + "_eroded.jpg";
         imwrite(newImage_name, erosion_dst);
     } else if (erosion_choice == 0) {
-        String newImage_name = imageName + "Dilatated.jpg";
+        String newImage_name = rawname + "_dilatated.jpg";
         imwrite(newImage_name, dilation_dst);
     }
     return 0;

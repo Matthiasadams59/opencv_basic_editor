@@ -123,32 +123,32 @@ opencv_basic_editor/fast:
 	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/build
 .PHONY : opencv_basic_editor/fast
 
-erosion_dilatation.o: erosion_dilatation.cpp.o
+resizing.o: resizing.cpp.o
 
-.PHONY : erosion_dilatation.o
+.PHONY : resizing.o
 
 # target to build an object file
-erosion_dilatation.cpp.o:
-	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o
-.PHONY : erosion_dilatation.cpp.o
+resizing.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/resizing.cpp.o
+.PHONY : resizing.cpp.o
 
-erosion_dilatation.i: erosion_dilatation.cpp.i
+resizing.i: resizing.cpp.i
 
-.PHONY : erosion_dilatation.i
+.PHONY : resizing.i
 
 # target to preprocess a source file
-erosion_dilatation.cpp.i:
-	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.i
-.PHONY : erosion_dilatation.cpp.i
+resizing.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/resizing.cpp.i
+.PHONY : resizing.cpp.i
 
-erosion_dilatation.s: erosion_dilatation.cpp.s
+resizing.s: resizing.cpp.s
 
-.PHONY : erosion_dilatation.s
+.PHONY : resizing.s
 
 # target to generate assembly for a file
-erosion_dilatation.cpp.s:
-	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.s
-.PHONY : erosion_dilatation.cpp.s
+resizing.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/resizing.cpp.s
+.PHONY : resizing.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... opencv_basic_editor"
-	@echo "... erosion_dilatation.o"
-	@echo "... erosion_dilatation.i"
-	@echo "... erosion_dilatation.s"
+	@echo "... resizing.o"
+	@echo "... resizing.i"
+	@echo "... resizing.s"
 .PHONY : help
 
 

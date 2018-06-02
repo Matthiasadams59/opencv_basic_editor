@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/erosion_dilatation.cpp
+/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/resizing.cpp
 opencv2/opencv.hpp
 -
 iostream

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o"
+  "CMakeFiles/opencv_basic_editor.dir/resizing.cpp.o"
   "opencv_basic_editor.pdb"
   "opencv_basic_editor"
 )
