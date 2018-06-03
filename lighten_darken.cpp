@@ -47,19 +47,21 @@ int main( int argc, char** argv )
 
 
     /// Create Windows
+    namedWindow("Original", CV_WINDOW_FULLSCREEN);
     namedWindow("Lighten / Brighten", CV_WINDOW_AUTOSIZE);
 
 
-    createTrackbar( "Contrast", "Lighten / Brighten",
+    createTrackbar( "Contrast", "Original",
                     &alpha, max_alpha,
                     on_trackbar );
 
-    createTrackbar( "Brightness", "Lighten / Brighten",
+    createTrackbar( "Brightness", "Original",
                     &beta, max_beta,
                     on_trackbar );
 
     /// Apply the convert operation
-    imshow( "Lighten / Brighten", dst );
+    imshow("Original", src);
+    //imshow( "Lighten / Brighten", dst );
 
     /// Wait until user press some key
     waitKey(0);
