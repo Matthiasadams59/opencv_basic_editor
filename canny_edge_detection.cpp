@@ -3,10 +3,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+using namespace std;
 using namespace cv;
 
-/// Global variables
+/** Function Headers */
+void CannyThreshold(int, void*);
 
+/// Global variables
 Mat src, src_gray;
 Mat dst, detected_edges;
 
@@ -19,35 +22,6 @@ int ratio = 0;
 int kernel_size = 0;
 int aperture_size;
 int const max_kernel_size = 4;
-
-/**
- * @function CannyThreshold
- * @brief Trackbar callback - Canny thresholds input with a ratio 1:3
- */
-void CannyThreshold(int, void*)
-{
-  /// Aperture size should be odd between 3 and 7
-  if (kernel_size < 2) {
-      aperture_size = 3;
-  } else if (kernel_size < 4) {
-      aperture_size = 5;
-  } else if (kernel_size == 4) {
-      aperture_size = 7;
-  }
-
-  /// Reduce noise with a kernel
-  blur( src_gray, detected_edges, Size(aperture_size,aperture_size) );
-
-  /// Canny detector
-  Canny( detected_edges, detected_edges, lowThreshold, upThreshold, aperture_size );
-
-  /// Using Canny's output as a mask, we display our result
-  dst = Scalar::all(0);
-
-  src.copyTo( dst, detected_edges);
-  imshow( "Edge Map", dst );
- }
-
 
 /** @function main */
 int main( int argc, char** argv )
@@ -91,4 +65,33 @@ int main( int argc, char** argv )
   imwrite(rawname+"_canned.jpg", dst);
 
   return 0;
-  }
+}
+
+/**
+* @function CannyThreshold
+* @brief Trackbar callback - Canny thresholds input with a ratio 1:3
+*/
+void CannyThreshold(int, void*)
+{
+    /// Aperture size should be odd between 3 and 7
+    if (kernel_size < 2) {
+        aperture_size = 3;
+    } else if (kernel_size < 4) {
+        aperture_size = 5;
+    } else if (kernel_size == 4) {
+        aperture_size = 7;
+    }
+
+    /// Reduce noise with a kernel
+    blur( src_gray, detected_edges, Size(aperture_size,aperture_size) );
+
+    /// Canny detector
+    Canny( detected_edges, detected_edges, lowThreshold, upThreshold, aperture_size );
+
+    /// Using Canny's output as a mask, we display our result
+    dst = Scalar::all(0);
+
+    src.copyTo( dst, detected_edges);
+    imshow( "Edge Map", dst );
+}
+

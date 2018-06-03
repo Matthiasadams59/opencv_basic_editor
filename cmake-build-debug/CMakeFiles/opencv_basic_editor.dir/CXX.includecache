@@ -6,10 +6,16 @@
 
 #IncludeRegexTransform: 
 
-/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/resizing.cpp
-opencv2/opencv.hpp
--
+/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/face_recognition.cpp
+opencv2/objdetect/objdetect.hpp
+/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/opencv2/objdetect/objdetect.hpp
+opencv2/highgui/highgui.hpp
+/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/opencv2/highgui/highgui.hpp
+opencv2/imgproc/imgproc.hpp
+/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/opencv2/imgproc/imgproc.hpp
 iostream
+-
+stdio.h
 -
 
 /usr/local/include/opencv/cxcore.h
@@ -788,6 +794,10 @@ opencv2/videoio.hpp
 opencv2/highgui/highgui_c.h
 /usr/local/include/opencv2/opencv2/highgui/highgui_c.h
 
+/usr/local/include/opencv2/highgui/highgui.hpp
+opencv2/highgui.hpp
+/usr/local/include/opencv2/highgui/opencv2/highgui.hpp
+
 /usr/local/include/opencv2/highgui/highgui_c.h
 opencv2/core/core_c.h
 /usr/local/include/opencv2/highgui/opencv2/core/core_c.h
@@ -842,6 +852,10 @@ opencv2/highgui.hpp
 opencv2/imgproc/imgproc_c.h
 /usr/local/include/opencv2/opencv2/imgproc/imgproc_c.h
 
+/usr/local/include/opencv2/imgproc/imgproc.hpp
+opencv2/imgproc.hpp
+/usr/local/include/opencv2/imgproc/opencv2/imgproc.hpp
+
 /usr/local/include/opencv2/imgproc/imgproc_c.h
 opencv2/imgproc/types_c.h
 /usr/local/include/opencv2/imgproc/opencv2/imgproc/types_c.h
@@ -877,6 +891,10 @@ opencv2/core.hpp
 -
 vector
 -
+
+/usr/local/include/opencv2/objdetect/objdetect.hpp
+opencv2/objdetect.hpp
+/usr/local/include/opencv2/objdetect/opencv2/objdetect.hpp
 
 /usr/local/include/opencv2/objdetect/objdetect_c.h
 opencv2/core/core_c.h

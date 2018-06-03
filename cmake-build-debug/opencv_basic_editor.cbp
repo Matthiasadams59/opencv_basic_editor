@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/resizing.cpp">
+		<Unit filename="/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/face_recognition.cpp">
 			<Option target="opencv_basic_editor"/>
 		</Unit>
 		<Unit filename="/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/CMakeLists.txt">

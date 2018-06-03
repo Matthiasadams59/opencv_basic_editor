@@ -123,32 +123,32 @@ opencv_basic_editor/fast:
 	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/build
 .PHONY : opencv_basic_editor/fast
 
-resizing.o: resizing.cpp.o
+face_recognition.o: face_recognition.cpp.o
 
-.PHONY : resizing.o
+.PHONY : face_recognition.o
 
 # target to build an object file
-resizing.cpp.o:
-	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/resizing.cpp.o
-.PHONY : resizing.cpp.o
+face_recognition.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o
+.PHONY : face_recognition.cpp.o
 
-resizing.i: resizing.cpp.i
+face_recognition.i: face_recognition.cpp.i
 
-.PHONY : resizing.i
+.PHONY : face_recognition.i
 
 # target to preprocess a source file
-resizing.cpp.i:
-	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/resizing.cpp.i
-.PHONY : resizing.cpp.i
+face_recognition.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.i
+.PHONY : face_recognition.cpp.i
 
-resizing.s: resizing.cpp.s
+face_recognition.s: face_recognition.cpp.s
 
-.PHONY : resizing.s
+.PHONY : face_recognition.s
 
 # target to generate assembly for a file
-resizing.cpp.s:
-	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/resizing.cpp.s
-.PHONY : resizing.cpp.s
+face_recognition.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.s
+.PHONY : face_recognition.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... opencv_basic_editor"
-	@echo "... resizing.o"
-	@echo "... resizing.i"
-	@echo "... resizing.s"
+	@echo "... face_recognition.o"
+	@echo "... face_recognition.i"
+	@echo "... face_recognition.s"
 .PHONY : help
 
 
