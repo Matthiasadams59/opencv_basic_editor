@@ -5,7 +5,7 @@ using namespace cv;
 
 //double alpha = 1.0;
 int alpha = 0;
-int beta = 0;
+int beta = 200;
 double double_alpha;
 double const max_alpha = 200;
 int const max_beta = 400;
