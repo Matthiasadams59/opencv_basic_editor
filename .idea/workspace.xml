@@ -14,13 +14,19 @@
     <list default="true" id="436e87e1-37c3-489e-a91f-87b421641755" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canny_edge_detection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/canny_edge_detection.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/erosion_dilatation.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_basic_editor" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_basic_editor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/opencv_basic_editor.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/opencv_basic_editor.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/van_gogh_resized.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/van_gogh_resized.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lighten_darken.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lighten_darken.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,29 +42,17 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="135">
+              <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="erosion_dilatation.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erosion_dilatation.cpp">
+      <file leaf-file-name="Resize.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resize.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lighten_darken.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lighten_darken.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
-              <caret line="69" selection-start-line="65" selection-end-line="69" />
+            <state relative-caret-position="690">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -69,8 +63,8 @@
       <file leaf-file-name="resizing.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resizing.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-582">
-              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            <state relative-caret-position="775">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -78,38 +72,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="panorama_stitching.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/panorama_stitching.cpp">
+      <file leaf-file-name="exec.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exec.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+            <state relative-caret-position="135">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#116#148#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="canny_edge_detection.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/canny_edge_detection.cpp">
+      <file leaf-file-name="erosion_dilatation.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erosion_dilatation.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="65" selection-start-line="62" selection-end-line="65" />
+            <state relative-caret-position="70">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="face_recognition.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/face_recognition.cpp">
+      <file leaf-file-name="lighten_darken.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lighten_darken.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="65">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
-                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video_erosion_dilatation.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video_erosion_dilatation.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="46" column="60" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,6 +130,7 @@
       <find>imgs</find>
       <find>kernel</find>
       <find>ratio</find>
+      <find>src</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,13 +141,14 @@
       <list>
         <option value="$PROJECT_DIR$/Noé_part/lighten.cpp" />
         <option value="$PROJECT_DIR$/Dilatation_Erosion.cpp" />
-        <option value="$PROJECT_DIR$/erosion_dilatation.cpp" />
-        <option value="$PROJECT_DIR$/lighten_darken.cpp" />
         <option value="$PROJECT_DIR$/resizing.cpp" />
         <option value="$PROJECT_DIR$/panorama_stitching.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/canny_edge_detection.cpp" />
         <option value="$PROJECT_DIR$/face_recognition.cpp" />
+        <option value="$PROJECT_DIR$/erosion_dilatation.cpp" />
+        <option value="$PROJECT_DIR$/video_erosion_dilatation.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/lighten_darken.cpp" />
       </list>
     </option>
   </component>
@@ -171,11 +178,6 @@
             <path>
               <item name="opencv_basic_editor" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv_basic_editor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="opencv_basic_editor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opencv_basic_editor" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,12 +222,12 @@
       <updated>1526975192284</updated>
       <workItem from="1526975194287" duration="954000" />
       <workItem from="1527579836221" duration="460000" />
-      <workItem from="1527944178891" duration="24027000" />
+      <workItem from="1527944178891" duration="28713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25441000" />
+    <option name="totallyTimeSpent" value="30127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1260" height="669" extended-state="0" />
@@ -333,39 +335,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resizing.cpp">
+    <entry file="file://$PROJECT_DIR$/face_recognition.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-582">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        <state relative-caret-position="-551">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lighten_darken.cpp">
+    <entry file="file://$PROJECT_DIR$/canny_edge_detection.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="69" selection-start-line="65" selection-end-line="69" />
+        <state relative-caret-position="229">
+          <caret line="65" selection-start-line="62" selection-end-line="65" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erosion_dilatation.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -381,22 +366,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/canny_edge_detection.cpp">
+    <entry file="file://$PROJECT_DIR$/exec.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="65" selection-start-line="62" selection-end-line="65" />
+        <state relative-caret-position="135">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/face_recognition.cpp">
+    <entry file="file://$PROJECT_DIR$/video_erosion_dilatation.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="85">
+          <caret line="46" column="60" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resize.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resizing.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erosion_dilatation.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lighten_darken.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>

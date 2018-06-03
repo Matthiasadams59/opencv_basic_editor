@@ -8,7 +8,7 @@ int alpha = 0;
 int beta = 0;
 double double_alpha;
 double const max_alpha = 200;
-int const max_beta = 100;
+int const max_beta = 400;
 
 Mat src;
 Mat dst;
@@ -20,8 +20,9 @@ Mat dst;
 void on_trackbar( int, void* )
 {
     double_alpha = (double) (100+alpha)/100 ;
+    double double_beta = beta - 200;
 
-    src.convertTo(dst, dst.type(), double_alpha, beta);
+    src.convertTo(dst, dst.type(), double_alpha, double_beta);
     imshow( "Lighten / Brighten", dst );
 }
 

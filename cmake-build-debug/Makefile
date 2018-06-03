@@ -123,32 +123,32 @@ opencv_basic_editor/fast:
 	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/build
 .PHONY : opencv_basic_editor/fast
 
-face_recognition.o: face_recognition.cpp.o
+lighten_darken.o: lighten_darken.cpp.o
 
-.PHONY : face_recognition.o
+.PHONY : lighten_darken.o
 
 # target to build an object file
-face_recognition.cpp.o:
-	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o
-.PHONY : face_recognition.cpp.o
+lighten_darken.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o
+.PHONY : lighten_darken.cpp.o
 
-face_recognition.i: face_recognition.cpp.i
+lighten_darken.i: lighten_darken.cpp.i
 
-.PHONY : face_recognition.i
+.PHONY : lighten_darken.i
 
 # target to preprocess a source file
-face_recognition.cpp.i:
-	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.i
-.PHONY : face_recognition.cpp.i
+lighten_darken.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.i
+.PHONY : lighten_darken.cpp.i
 
-face_recognition.s: face_recognition.cpp.s
+lighten_darken.s: lighten_darken.cpp.s
 
-.PHONY : face_recognition.s
+.PHONY : lighten_darken.s
 
 # target to generate assembly for a file
-face_recognition.cpp.s:
-	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.s
-.PHONY : face_recognition.cpp.s
+lighten_darken.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.s
+.PHONY : lighten_darken.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... opencv_basic_editor"
-	@echo "... face_recognition.o"
-	@echo "... face_recognition.i"
-	@echo "... face_recognition.s"
+	@echo "... lighten_darken.o"
+	@echo "... lighten_darken.i"
+	@echo "... lighten_darken.s"
 .PHONY : help
 
 

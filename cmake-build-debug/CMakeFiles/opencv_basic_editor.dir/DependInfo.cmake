@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/face_recognition.cpp" "/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o"
+  "/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/lighten_darken.cpp" "/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/cmake-build-debug/CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

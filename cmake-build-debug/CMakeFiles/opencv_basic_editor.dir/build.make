@@ -57,38 +57,38 @@ include CMakeFiles/opencv_basic_editor.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/opencv_basic_editor.dir/flags.make
 
-CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o: CMakeFiles/opencv_basic_editor.dir/flags.make
-CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o: ../face_recognition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o -c /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/face_recognition.cpp
+CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o: CMakeFiles/opencv_basic_editor.dir/flags.make
+CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o: ../lighten_darken.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o -c /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/lighten_darken.cpp
 
-CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/face_recognition.cpp > CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.i
+CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/lighten_darken.cpp > CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.i
 
-CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/face_recognition.cpp -o CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.s
+CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/lighten_darken.cpp -o CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.s
 
-CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o.requires:
+CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o.requires:
 
-.PHONY : CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o.requires
+.PHONY : CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o.requires
 
-CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o.provides: CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o.requires
-	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o.provides.build
-.PHONY : CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o.provides
+CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o.provides: CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o.requires
+	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o.provides.build
+.PHONY : CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o.provides
 
-CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o.provides.build: CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o
+CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o.provides.build: CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o
 
 
 # Object files for target opencv_basic_editor
 opencv_basic_editor_OBJECTS = \
-"CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o"
+"CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o"
 
 # External object files for target opencv_basic_editor
 opencv_basic_editor_EXTERNAL_OBJECTS =
 
-opencv_basic_editor: CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o
+opencv_basic_editor: CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o
 opencv_basic_editor: CMakeFiles/opencv_basic_editor.dir/build.make
 opencv_basic_editor: /usr/local/lib/libopencv_stitching.3.4.0.dylib
 opencv_basic_editor: /usr/local/lib/libopencv_superres.3.4.0.dylib
@@ -141,7 +141,7 @@ CMakeFiles/opencv_basic_editor.dir/build: opencv_basic_editor
 
 .PHONY : CMakeFiles/opencv_basic_editor.dir/build
 
-CMakeFiles/opencv_basic_editor.dir/requires: CMakeFiles/opencv_basic_editor.dir/face_recognition.cpp.o.requires
+CMakeFiles/opencv_basic_editor.dir/requires: CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o.requires
 
 .PHONY : CMakeFiles/opencv_basic_editor.dir/requires
 
