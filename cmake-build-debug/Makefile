@@ -123,32 +123,32 @@ opencv_basic_editor/fast:
 	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/build
 .PHONY : opencv_basic_editor/fast
 
-lighten_darken.o: lighten_darken.cpp.o
+exec.o: exec.cpp.o
 
-.PHONY : lighten_darken.o
+.PHONY : exec.o
 
 # target to build an object file
-lighten_darken.cpp.o:
-	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o
-.PHONY : lighten_darken.cpp.o
+exec.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/exec.cpp.o
+.PHONY : exec.cpp.o
 
-lighten_darken.i: lighten_darken.cpp.i
+exec.i: exec.cpp.i
 
-.PHONY : lighten_darken.i
+.PHONY : exec.i
 
 # target to preprocess a source file
-lighten_darken.cpp.i:
-	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.i
-.PHONY : lighten_darken.cpp.i
+exec.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/exec.cpp.i
+.PHONY : exec.cpp.i
 
-lighten_darken.s: lighten_darken.cpp.s
+exec.s: exec.cpp.s
 
-.PHONY : lighten_darken.s
+.PHONY : exec.s
 
 # target to generate assembly for a file
-lighten_darken.cpp.s:
-	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.s
-.PHONY : lighten_darken.cpp.s
+exec.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/exec.cpp.s
+.PHONY : exec.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... opencv_basic_editor"
-	@echo "... lighten_darken.o"
-	@echo "... lighten_darken.i"
-	@echo "... lighten_darken.s"
+	@echo "... exec.o"
+	@echo "... exec.i"
+	@echo "... exec.s"
 .PHONY : help
 
 

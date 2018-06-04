@@ -5,34 +5,30 @@ using namespace std;
 using namespace cv;
 
 /// Global variables
-Mat src, erosion_dst, dilation_dst;
+Mat src1, erosion_dst, dilation_dst;
 
 int erosion_elem = 0;
 int erosion_size = 0;
 int dilation_elem = 0;
 int dilation_size = 0;
 int const max_elem = 2;
-int const max_kernel_size = 21;
+int const max_kernel_size1 = 21;
 
 /** Function Headers */
 void Erosion( int, void* );
 void Dilation( int, void* );
 
 /** @function main */
-int main( int argc, char** argv )
+int dilatation_erosion()
 {
-    // Read image from file
-    String imageName("van_gogh.jpg");
-    if (argc > 1) {
-        imageName = argv[1];
-    }
-    src = imread(imageName, IMREAD_COLOR);
 
-    //if fail to read the image
-    if(!src.data )
-    {
+    string imageName;
+    while (!src1.data) {
         printf( " No image data \n " );
-        return -1;
+        cout << "Pick an image" << endl;
+        cin >> imageName;
+        src1 = imread(imageName, IMREAD_COLOR);
+
     }
 
     int erosion_choice = -1;
@@ -81,11 +77,11 @@ void Erosion( int, void* )
                     Erosion );
 
     createTrackbar( "Erosion size:\n 2n +1", "Erosion",
-                    &erosion_size, max_kernel_size,
+                    &erosion_size, max_kernel_size1,
                     Erosion );
 
     /// Apply the erosion operation
-    erode( src, erosion_dst, element );
+    erode( src1, erosion_dst, element );
     imshow( "Erosion", erosion_dst );
 }
 
@@ -103,7 +99,7 @@ void Dilation( int, void* )
 
     /// Create windows
     namedWindow( "Dilation", CV_WINDOW_AUTOSIZE );
-    cvMoveWindow( "Dilation", src.cols, 0 );
+    cvMoveWindow( "Dilation", src1.cols, 0 );
 
     /// Create Dilation Trackbar
     createTrackbar( "Element:\n 0: Rect \n 1: Cross \n 2: Ellipse", "Dilation",
@@ -111,10 +107,10 @@ void Dilation( int, void* )
                     Dilation );
 
     createTrackbar( "Dilation size:\n 2n +1", "Dilation",
-                    &dilation_size, max_kernel_size,
+                    &dilation_size, max_kernel_size1,
                     Dilation );
 
     /// Apply the dilation operation
-    dilate( src, dilation_dst, element );
+    dilate( src1, dilation_dst, element );
     imshow( "Dilation", dilation_dst );
 }

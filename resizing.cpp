@@ -12,55 +12,50 @@ double double_scaleY;
 const int max_scaleX = 200;
 const int max_scaleY = 200;
 
-Mat src;
-Mat dst;
+Mat src2;
+Mat dst2;
 
 /**
  * @function on_trackbar
  * @brief Callback for trackbar
  */
-void on_trackbar( int, void* )
+void on_trackbar2( int, void* )
 {
     double_scaleX = (double) (scaleX+1)/ 100;
     double_scaleY = (double) (scaleY+1)/ 100;
 
-    resize(src, dst, Size(round(double_scaleX*src.cols), round(double_scaleY*src.rows)), 0, 0, INTER_LINEAR);
+    resize(src2, dst2, Size(round(double_scaleX*src2.cols), round(double_scaleY*src2.rows)), 0, 0, INTER_LINEAR);
 
     namedWindow("Rezize", CV_WINDOW_AUTOSIZE);
-    imshow( "Resize", dst );
+    imshow( "Resize", dst2 );
 }
 
 
-int main( int argc, char** argv )
+int resizing()
 {
-    // Read image from file
-    String imageName("van_gogh.jpg");
-    if (argc > 1) {
-        imageName = argv[1];
-    }
-    src = imread(imageName, IMREAD_COLOR);
-
-    //if fail to read the image
-    if(!src.data )
-    {
+    string imageName;
+    while (!src2.data) {
         printf( " No image data \n " );
-        return -1;
+        cout << "Pick an image" << endl;
+        cin >> imageName;
+        src2 = imread(imageName, IMREAD_COLOR);
+
     }
-    dst = Mat::zeros(src.size(), src.type());
+    dst2 = Mat::zeros(src2.size(), src2.type());
 
     /// Create Windows
     namedWindow("Original", CV_WINDOW_AUTOSIZE);
 
     createTrackbar( "Weight", "Original",
                     &scaleX, max_scaleX,
-                    on_trackbar );
+                    on_trackbar2 );
 
     createTrackbar( "Height", "Original",
                     &scaleY, max_scaleY,
-                    on_trackbar );
+                    on_trackbar2 );
 
     /// Apply the convert operation
-    imshow( "Original", src);
+    imshow( "Original", src2);
 
     /// Wait until user press some key
     waitKey(0);
@@ -68,6 +63,6 @@ int main( int argc, char** argv )
     size_t lastindex = imageName.find_last_of(".");
     string rawname = imageName.substr(0, lastindex);
 
-    imwrite(rawname+"_resized.jpg", dst);
+    imwrite(rawname+"_resized.jpg", dst2);
     return 0;
 }

@@ -6,5 +6,5 @@ set(CMAKE_CXX_STANDARD 11)
 find_package( OpenCV REQUIRED )
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(opencv_basic_editor lighten_darken.cpp)
+add_executable(opencv_basic_editor exec.cpp)
 target_link_libraries( opencv_basic_editor ${OpenCV_LIBS})

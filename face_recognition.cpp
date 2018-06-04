@@ -12,39 +12,41 @@ using namespace cv;
 void detectAndDisplay(Mat frame);
 
 /** Global variables */
-string face_cascade_name = "haarcascades/haarcascade_frontalface_alt.xml";
+String face_cascade_name = "haarcascades/haarcascade_frontalface_alt.xml";
 String eyes_cascade_name = "haarcascades/haarcascade_eye_tree_eyeglasses.xml";
 CascadeClassifier face_cascade;
 CascadeClassifier eyes_cascade;
-string window_name = "Capture - Face detection";
+String window_name = "Capture - Face detection";
 RNG rng(12345);
-Mat src;
+Mat src6;
 
 /** @function main */
-int main(int argc, char** argv)
+int FaceRecognition()
 {
 
     //-- 1. Load the cascades
-    if( !face_cascade.load( face_cascade_name ) ){ printf("--(!)Error loading\n"); return -1; };
-    if( !eyes_cascade.load( eyes_cascade_name ) ){ printf("--(!)Error loading\n"); return -1; };
+    if( !face_cascade.load( face_cascade_name ) ){ printf("--(!)Error loading face_cascade\n"); return -1; };
+    if( !eyes_cascade.load( eyes_cascade_name ) ){ printf("--(!)Error loading eyes_cascade\n"); return -1; };
 
-    // Read image from file
-    String imageName("happy-people.jpg");
-    if (argc > 1) {
-        imageName = argv[1];
+    string imageName;
+    while (!src6.data) {
+        printf( " No image data \n " );
+        cout << "Pick an image" << endl;
+        cin >> imageName;
+        src6 = imread(imageName, IMREAD_COLOR);
+
     }
-    src = imread(imageName, IMREAD_COLOR);
 
     //if fail to read the image
-    if(!src.data )
+    if(!src6.data )
     {
         printf( " No image data \n " );
         return -1;
     }
 
     // Apply the classifier to the frame
-    if (!src.empty()){
-        detectAndDisplay(src);
+    if (!src6.empty()){
+        detectAndDisplay(src6);
     }
     else{
         printf(" --(!) No captured frame -- Break!");
@@ -55,7 +57,7 @@ int main(int argc, char** argv)
 
     size_t lastindex = imageName.find_last_of(".");
     string rawname = imageName.substr(0, lastindex);
-    imwrite(rawname+"_faceDetected.jpg", src);
+    imwrite(rawname+"_faceDetected.jpg", src6);
 
     return 0;
 }

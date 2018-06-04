@@ -57,81 +57,82 @@ include CMakeFiles/opencv_basic_editor.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/opencv_basic_editor.dir/flags.make
 
-CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o: CMakeFiles/opencv_basic_editor.dir/flags.make
-CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o: ../lighten_darken.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o -c /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/lighten_darken.cpp
+CMakeFiles/opencv_basic_editor.dir/exec.cpp.o: CMakeFiles/opencv_basic_editor.dir/flags.make
+CMakeFiles/opencv_basic_editor.dir/exec.cpp.o: ../exec.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv_basic_editor.dir/exec.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_basic_editor.dir/exec.cpp.o -c /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/exec.cpp
 
-CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/lighten_darken.cpp > CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.i
+CMakeFiles/opencv_basic_editor.dir/exec.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_basic_editor.dir/exec.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/exec.cpp > CMakeFiles/opencv_basic_editor.dir/exec.cpp.i
 
-CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/lighten_darken.cpp -o CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.s
+CMakeFiles/opencv_basic_editor.dir/exec.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_basic_editor.dir/exec.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alitaigamatthias-adams/Documents/opencv_basic_editor/exec.cpp -o CMakeFiles/opencv_basic_editor.dir/exec.cpp.s
 
-CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o.requires:
+CMakeFiles/opencv_basic_editor.dir/exec.cpp.o.requires:
 
-.PHONY : CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o.requires
+.PHONY : CMakeFiles/opencv_basic_editor.dir/exec.cpp.o.requires
 
-CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o.provides: CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o.requires
-	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o.provides.build
-.PHONY : CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o.provides
+CMakeFiles/opencv_basic_editor.dir/exec.cpp.o.provides: CMakeFiles/opencv_basic_editor.dir/exec.cpp.o.requires
+	$(MAKE) -f CMakeFiles/opencv_basic_editor.dir/build.make CMakeFiles/opencv_basic_editor.dir/exec.cpp.o.provides.build
+.PHONY : CMakeFiles/opencv_basic_editor.dir/exec.cpp.o.provides
 
-CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o.provides.build: CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o
+CMakeFiles/opencv_basic_editor.dir/exec.cpp.o.provides.build: CMakeFiles/opencv_basic_editor.dir/exec.cpp.o
 
 
 # Object files for target opencv_basic_editor
 opencv_basic_editor_OBJECTS = \
-"CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o"
+"CMakeFiles/opencv_basic_editor.dir/exec.cpp.o"
 
 # External object files for target opencv_basic_editor
 opencv_basic_editor_EXTERNAL_OBJECTS =
 
-opencv_basic_editor: CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o
+opencv_basic_editor: CMakeFiles/opencv_basic_editor.dir/exec.cpp.o
 opencv_basic_editor: CMakeFiles/opencv_basic_editor.dir/build.make
-opencv_basic_editor: /usr/local/lib/libopencv_stitching.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_superres.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_videostab.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_aruco.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_bgsegm.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_bioinspired.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_ccalib.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_dpm.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_face.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_fuzzy.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_img_hash.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_line_descriptor.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_optflow.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_reg.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_rgbd.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_saliency.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_stereo.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_structured_light.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_surface_matching.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_tracking.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_xfeatures2d.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_ximgproc.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_xobjdetect.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_xphoto.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_shape.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_photo.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_datasets.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_plot.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_text.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_dnn.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_ml.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_video.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_calib3d.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_features2d.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_highgui.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_videoio.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_phase_unwrapping.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_flann.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_imgcodecs.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_objdetect.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_imgproc.3.4.0.dylib
-opencv_basic_editor: /usr/local/lib/libopencv_core.3.4.0.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_stitching.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_superres.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_videostab.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_aruco.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_bgsegm.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_bioinspired.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_ccalib.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_dnn_objdetect.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_dpm.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_face.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_fuzzy.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_hfs.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_img_hash.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_line_descriptor.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_optflow.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_reg.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_rgbd.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_saliency.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_stereo.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_structured_light.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_surface_matching.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_tracking.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_xfeatures2d.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_ximgproc.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_xobjdetect.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_xphoto.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_shape.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_photo.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_dnn.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_datasets.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_ml.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_plot.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_video.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_calib3d.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_features2d.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_highgui.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_videoio.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_phase_unwrapping.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_flann.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_imgcodecs.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_objdetect.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_imgproc.3.4.1.dylib
+opencv_basic_editor: /usr/local/lib/libopencv_core.3.4.1.dylib
 opencv_basic_editor: CMakeFiles/opencv_basic_editor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alitaigamatthias-adams/Documents/opencv_basic_editor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable opencv_basic_editor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_basic_editor.dir/link.txt --verbose=$(VERBOSE)
@@ -141,7 +142,7 @@ CMakeFiles/opencv_basic_editor.dir/build: opencv_basic_editor
 
 .PHONY : CMakeFiles/opencv_basic_editor.dir/build
 
-CMakeFiles/opencv_basic_editor.dir/requires: CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o.requires
+CMakeFiles/opencv_basic_editor.dir/requires: CMakeFiles/opencv_basic_editor.dir/exec.cpp.o.requires
 
 .PHONY : CMakeFiles/opencv_basic_editor.dir/requires
 

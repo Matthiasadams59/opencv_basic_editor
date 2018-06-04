@@ -18,7 +18,7 @@ Stitcher::Mode mode = Stitcher::PANORAMA;
 // Array for pictures
 vector<Mat> imgs;
 
-int main(int argc, char* argv[])
+int panorama_stitching()
 {
     int again_loop = -1;
     string image_choice;

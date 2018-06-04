@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/opencv_basic_editor.dir/lighten_darken.cpp.o"
+  "CMakeFiles/opencv_basic_editor.dir/exec.cpp.o"
   "opencv_basic_editor.pdb"
   "opencv_basic_editor"
 )
