@@ -9,8 +9,10 @@
 #include "panorama_stitching.cpp"
 #include "face_recognition.cpp"
 
+
 int main(int argc, char** argv)
 {
+    cout << argv[0] << endl;
 	int action = 0;
 
     while (action != 7){
